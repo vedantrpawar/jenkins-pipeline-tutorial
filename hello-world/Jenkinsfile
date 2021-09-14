@@ -8,12 +8,12 @@ pipeline {
         }
         stage('Compile') {
             steps {
-                echo 'Compile the source code' 
+                echo 'vedant pawar' 
             }
         }
         stage('Security Check') {
             steps {
-                echo 'Run the security check against the application' 
+                echo 'st francis institute of technology' 
             }
         }
         stage('Run Unit Tests') {
@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Run Integration Tests') {
             steps {
-                echo 'Run only crucial integration tests from the source code' 
+                echo 'borivali is in mumbai suburban maharashtra' 
             }
         }
         stage('Publish Artifacts') {

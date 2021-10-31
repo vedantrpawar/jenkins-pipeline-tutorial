@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Run Integration Tests') {
             steps {
-                echo 'borivali is in mumbai suburban maharashtra' 
+                echo 'borivali is in mumbai suburban maharashtra - practice p9 by vedant pawar devops' 
             }
         }
         stage('Publish Artifacts') {
